@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#radar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
