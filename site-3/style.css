@@ -4,18 +4,34 @@
     box-sizing: border-box;
 }
 body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
     display: flex;
-    height: 100vh;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+h2 {
+    margin-bottom: 250px;
+    color: rgb(86, 221, 24);
+    font-size: 42px;
 }
 #radar {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(129, 129, 129);
+    border-color: 6px solid rgb(92, 92, 92);
+    border-radius: 50%;
+
     display: flex;
+    line-height: 250px;
     justify-content: center;
     align-items: center;
-    font-size: 26px;
-    width: 200px;
-    height: 200px;
-    background-color: grey;
+    font-size: 1.2rem;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: crosshair;
 }
