@@ -1,7 +1,7 @@
 const radar = document.getElementById("radar")
 
 radar.addEventListener('mouseenter' , function() {
-    radar.style.backgroundColor = 'green'
+    radar.style.backgroundColor = 'purple'
     radar.textContent = "Entrou"
 })
 
