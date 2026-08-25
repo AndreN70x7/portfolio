@@ -11,16 +11,18 @@ carinho.addEventListener('click' , function() {
     rosto.style.backgroundColor = "pink"
     rosto.textContent = "( ^-^ )"
     feliz.play();
-    
+    feliz.pause();
 })
 
 bronca.addEventListener('click' , function() {
     rosto.style.backgroundColor = "red"
     rosto.textContent = "( >_< )"
     brabo.play();
+    brabo.pause();
 })
 dormir.addEventListener('click' , function() {
     rosto.style.backgroundColor = "darkblue"
     rosto.textContent = "( -_- ) zZz"
     Z.play();
+    Z.pause();
 })
